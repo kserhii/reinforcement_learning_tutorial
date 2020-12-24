@@ -12,3 +12,24 @@ Content list:
 
 ***Note:*** some of the parts were squashed for simplicity
 
+## How to run
+
+### Setup
+
+Makefile contains helper commands to create [virtual environment](https://docs.python.org/3.8/library/venv.html) 
+and install requirements
+
+```shell script
+make venv
+source venv/bin/activate
+make update
+``` 
+
+### Run code
+
+Activate virtual environment and run one of the tutorial files
+
+```shell script
+source venv/bin/activate
+python3.8 rl_tutorial/rl1_qlearning_intro.py
+```
